@@ -1,0 +1,230 @@
+FRIZERSKI=============================
+djelatnica
+	ime
+		Dragica
+		Mira
+	prezime
+		Tibosic
+		Rimac
+	iban
+		HR12 1001 0051 8630 0016 0
+		HR12 1001 0042 8930 0020 0
+
+korisnik
+	ime
+		Dalibor
+		Josip
+	prezime
+		Glavas
+		Stjepanovic
+
+posjeta
+	korisnik
+		1.
+		2.
+	djelatnica
+		1.
+		2.
+	usluga
+		1.
+		2.
+
+usluga
+	naziv
+		sisanje
+		bojanje
+	cijena
+		50
+		123.01
+
+
+SALON ZA ULJEPSAVANJE==================
+djelatnica
+	ime
+		Vanna
+		Hana
+	prezime
+		Jakopec
+		Cicek
+	iban
+		HR12 1001 0086 8630 0056 0
+		HR12 1001 0041 8940 0084 0
+
+korisnik
+	ime
+		Terezija
+		Eva
+	prezime
+		Skorjanc
+		Matijasevic
+
+posjeta
+	korisnik
+		1.
+		2.
+	djelatnica
+		1.
+		2.
+	usluga
+		1.
+		2.
+
+usluga
+	naziv
+		sminkanje
+		lakiranje noktiju
+	cijena
+		80.10
+		45.05
+
+
+SALON ZA ULJEPSAVANJE=================
+osoba
+	ime
+		Tibor
+		David
+	prezime
+		Maric
+		Moljac
+	email
+		tibor.maric@gmail.com
+		davidM69@gmail.com
+
+zivotinja
+	ime
+		Gizmo
+		Pahuljica
+	vrsta
+		Panda
+		Sibirski Tigar
+	prostor
+		1.
+		2.
+	osoba
+		1.
+		2.
+prostor
+	velicina
+		mala
+		velika
+	temperatura
+		-10
+		25
+
+DJECJI VRTIC===========================
+skupina
+	naziv
+		A1
+		B2
+	odgajateljica
+		1.
+		2.
+	brojDijece
+		10
+		12
+
+dijete
+	ime
+		Davor
+		Oktavija
+		
+	prezime
+		Adamic
+		Broz
+		
+	brojRoditelja
+		097 746 6568
+		098 767 0157
+
+odgajatelj
+	ime
+		Marko
+		Janko
+		
+	prezime
+		Kovac
+		Abicic
+		
+	iban
+		HR12 1001 0079 8120 0088 0
+		HR12 1001 0011 8460 0095 0
+
+
+
+
+MUZEJ==================================
+izlozba
+	brojDjela
+		13
+		21
+		10
+	kustos
+		1.
+		2.
+		3.
+	sponzor
+		1.
+		2.
+		3.
+
+djelo
+	naziv
+		mrtva zmija
+		pad bogova
+		novi svijet
+	autor
+		1.
+		2.
+		3.
+	cijena
+		25000
+		105000
+		50
+
+autor
+	ime
+		Marko
+		Ivan
+		Tibor
+	prezime
+		Mrvica
+		Kristos
+		Ukrajinac
+
+kustos
+	ime
+		Josip
+		Marija
+		Ivica
+	prezime
+		Marijanovic
+		Kopljar
+		Blagdanovic
+	email
+		jopadopa@yahoo.com
+		marijaK@gmail.com
+		Blagi-Ivica@gmail.com
+
+sponzor
+	naziv
+		konzum
+		mlinar
+	iznos
+		2000000
+		3452341.03
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
