@@ -1,4 +1,4 @@
-FRIZERSKI=============================
+FRIZERSKI=============================1
 djelatnica
 	ime
 		Dragica
@@ -8,7 +8,8 @@ djelatnica
 		Rimac
 	iban
 		HR12 1001 0051 8630 0016 0
-		HR12 1001 0042 8930 0020 0
+		HR8424840088719622359
+		HR6724020063434362683
 
 korisnik
 	ime
@@ -38,7 +39,7 @@ usluga
 		123.01
 
 
-SALON ZA ULJEPSAVANJE==================
+SALON ZA ULJEPSAVANJE==================2
 djelatnica
 	ime
 		Vanna
@@ -47,8 +48,8 @@ djelatnica
 		Jakopec
 		Cicek
 	iban
-		HR12 1001 0086 8630 0056 0
-		HR12 1001 0041 8940 0084 0
+		HR4325000099114816134
+		HR0223400097136621448
 
 korisnik
 	ime
@@ -78,7 +79,7 @@ usluga
 		45.05
 
 
-SALON ZA ULJEPSAVANJE=================
+SALON ZA ULJEPSAVANJE=================3
 osoba
 	ime
 		Tibor
@@ -111,7 +112,8 @@ prostor
 		-10
 		25
 
-DJECJI VRTIC===========================
+
+DJECJI VRTIC===========================4
 skupina
 	naziv
 		A1
@@ -146,13 +148,11 @@ odgajatelj
 		Abicic
 		
 	iban
-		HR12 1001 0079 8120 0088 0
-		HR12 1001 0011 8460 0095 0
+		HR6824020068675883862
+		HR0723400098781426884
 
 
-
-
-MUZEJ==================================
+MUZEJ==================================5
 izlozba
 	brojDjela
 		13
@@ -214,17 +214,218 @@ sponzor
 		3452341.03
 		
 
+SAMOSTAN==================================6
+svecenik
+	ime
+		Josip
+		Ivan
+	nadredeniSvecenik
+		Marko
+		Luka
+posao
+	naziv
+		kosenje trave
+		pranje poda
+	vrijeme
+		ujutro
+		navecer
+radno vrijeme
+	svecenik
+		1.
+		2.
+	posao
+		1.
+		2.
 
 
+TAKSI SLUZBA==================================7
+vozilo
+	registracija
+		ZG981SL
+		OS356LA
+	vozac
+		1.
+		2.
+vozac
+	ime
+		Olivija
+		Andjela
+	prezime
+		Horvat
+		Juric
+	iban
+		HR7724020061889439817
+		HR1924020067538536367
+putnik
+	ime
+		Zdenko
+		Josip
+	brojMobitela
+		085 686 3839
+		097 513 2688
+voznja
+	vozilo
+		1.
+		2.
+	putnik
+		1.
+		2.
+	prijedenaPutanja
+		1659
+		520
 
 
+POSTOLAR==================================8
+postolar
+	ime
+		Gabrijel
+		Tomas
+	prezime
+		Petrovic
+		Vukovic
+	iban
+		HR2424840085688374894
+		HR2323600002454871785
+segrt
+	ime
+		Zdenka
+		Juraj
+	prezime
+		Knezevic
+		Juric
+	iban
+		HR7224020068671813573
+		HR4523600005944851849
+korisnik
+	ime
+		Robert
+		Sasa
+	prezime
+		Ivankovic
+		Katic
+	brojMobitela
+		090 656 5791
+		098 740 320
+	
+obuca
+	naziv
+		patika
+		stikla
+	boja
+		plava
+		crvena
+	vecBiloNaPopravku
+		da/ne
+popravak
+	postolar
+		1.
+		2.
+	brojObuce
+		2
+		5
+	potrebnaPomocSegrta
+		da/ne
+	cijena
+		100
+		150.12
 
 
+URAR SILVIJA=============================9
+urar
+	ime
+		Zvonko
+		Petar
+	prezime
+		Lučić
+		Šablić
+	iban
+		HR8224840089494526295
+		HR9323600004326889821
+segrt
+	ime
+		Antonio
+		Renato
+	prezime
+		Ivić
+		Vlahović
+	iban
+		HR9323600004326889821
+		HR9323600004326889821
+korisnik
+	ime
+		Edvard
+		Branislav
+	prezime
+		Širić
+		Salinović
+	brojMobitela
+		097 753 4883
+		098 880 947
+	
+sat
+	naziv
+		zidni sat
+		rucni sat
+	vrsta
+		digitalni
+		mehanicki
+	vecBiloNaPopravku
+		da/ne
+popravak
+	postolar
+		1.
+		2.
+	brojSatova
+		1
+		3
+	potrebnaPomocSegrta
+		da/ne
+	cijena
+		125.12
+		178
 
 
-
-
-
-
-
+DOKTORSKA ORDINACIJA====================10
+doktor
+	ime
+		Juraj
+		Emanuel 
+	prezime
+		Čirjak
+		Dasović
+	iban
+		HR0524840083852779537
+		HR0524840083852779537
+medSestra
+	ime
+		Blaženka
+		Lara
+	prezime
+		Ratković
+		Slišković
+	iban
+		HR0423600001449958626
+		HR0423600001449958626
+pacijent
+	ime
+		Saša
+		Filip
+	prezime
+		Kovačić
+		Orešković
+	oib
+		14947259561
+		54511162221
+lijecenje
+	doktor
+		1.
+		2.
+	mdSestra
+		1.
+		2.
+	pacijent
+		1.
+		2.
+	trajanje
+		u procesu/zavrseno
 
