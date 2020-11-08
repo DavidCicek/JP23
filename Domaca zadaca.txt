@@ -229,7 +229,7 @@ posao
 	vrijeme
 		ujutro
 		navecer
-radno vrijeme
+svecenikPosao
 	svecenik
 		1.
 		2.
@@ -428,4 +428,218 @@ lijecenje
 		2.
 	trajanje
 		u procesu/zavrseno
+
+
+FAKULTET================================11
+kolegij
+	naziv
+		Gospodarstvo
+		Matematika
+	pocetak
+		21.02.2012
+		13.11.2020
+	
+rok
+	datum
+		18.09.2013
+		04.05.2019		
+	kolegij
+		1.
+		2.
+student
+	ime
+		Franjo
+		Mirjam
+	prezime
+		Krstić
+		Vitez
+	oib
+		18302841366
+		33443879340
+studentRok
+	student
+		1.
+		2.
+	rok
+		1.
+		2.
+
+
+OSNOVNA SKOLA===========================12
+radionica
+	naziv
+		Memento prijateljstva
+		20 dana dobrote
+	ucitelj
+		1.
+		2.
+ucitelj
+	ime
+		Barbara
+		Antonija
+	prezime
+		Bistrović
+		Marušić
+	iban
+		HR9824020066232629668
+		HR7225000091769864644
+dijete
+	ime
+		Dora
+		Ivan
+	prezime
+		Rakić
+		Buljubašić
+	brojRoditelja
+		085 97 518 6541
+		085 98 387 8576
+radionicaDijete
+	radionica
+		1.
+		2.
+	dijete
+		1.
+		2.
+
+
+SREDNJA SKOLA===========================13
+razred
+	naziv
+		8.d
+		1.d
+	profesor
+		1.
+		2.
+profesor
+	ime
+		Lucijan
+		Jelena 
+	prezime
+		Mršić
+		Kuhar
+	iban
+		HR5923400096561319436
+		HR2823600005748513679
+ucenik
+	ime
+		Dejan
+		Ksenija
+	prezime
+		Vrebac
+		Žganec
+	oib
+		99164982577
+		18434678862
+razredUcenik
+	razred
+		1.
+		2.
+	ucenik
+		1.
+		2.
+
+
+TRGOVACKI CENTAR===========================14
+trgovina
+	naziv
+		ZARA
+		Pevex
+	sef
+		1.
+		2.
+	web
+		zara.com
+		pevex.hr
+osoba
+	ime
+		Ivan
+		Josip
+	prezime
+		Čiček
+		Zovko
+	iban
+		HR3324020066837458624
+		HR7823600004334681713
+trgovinaOsoba
+	trgovina
+		1.
+		2.
+	osoba
+		1.
+		2.
+
+RESTORAN=================================15
+jelovnik
+	kategorija
+	pica
+kategorija
+	naziv
+		Toplo jelo
+		Hladno jelo
+		Rostilj
+	cijena
+		96.79
+		102.84
+		40
+pice
+	naziv
+		CocaCola
+		Cedevita
+		NukaCola
+	cijena
+		12.02
+		07.28
+		60
+kategorijaPice
+	kategorija
+		1.
+		2.
+		3.
+	pica
+		1.
+		2.
+		3.
+
+
+OBITELJSKO POLJOPRIVREDNO GOSPODARSTVO====16
+proizvod
+	naziv
+		Sir
+		Kajmak
+	cijena
+		49.99
+		110.20
+djelatnik
+	ime
+		Karolina
+		Ines
+	prezime
+		Grubišić
+		Lovrenčić
+	iban
+		HR6724020061676687472
+		HR8923400093819293893
+sirovina
+	naziv
+		mlijeko
+		sol
+	kvaliteta
+		dobra
+		losa
+proizvodSirovina
+	proizvod
+		1.
+		2.
+	sirovina
+		1.
+		2.
+proizvodDjelatnik
+	proizvod
+		1.
+		2.
+	sirovina
+		1.
+		2.
+
+
 
