@@ -7,7 +7,6 @@ djelatnica
 		Tibosic
 		Rimac
 	iban
-		HR12 1001 0051 8630 0016 0
 		HR8424840088719622359
 		HR6724020063434362683
 
@@ -571,7 +570,13 @@ trgovinaOsoba
 RESTORAN=================================15
 jelovnik
 	kategorija
+		1.
+		2.
+		3.
 	pica
+		1.
+		2.
+		3.
 kategorija
 	naziv
 		Toplo jelo
@@ -590,16 +595,7 @@ pice
 		12.02
 		07.28
 		60
-kategorijaPice
-	kategorija
-		1.
-		2.
-		3.
-	pica
-		1.
-		2.
-		3.
-
+	
 
 OBITELJSKO POLJOPRIVREDNO GOSPODARSTVO====16
 proizvod
@@ -642,4 +638,210 @@ proizvodDjelatnik
 		2.
 
 
+VODOINSTALER=================================17
+vodoinstaler
+	ime
+		Renato
+		Josipa
+	prezime
+		Dobrić
+		Jagodić
+	iban
+		HR2923400098275422399
+		HR7525000095388754752
+segrt
+	ime
+		Zoran
+		Jasmin
+	prezime
+		Grdenić
+		Draženović
+	iban
+		HR7923400092982811663
+		HR3624020063888556623
+popravak
+	naziv
+		odstopavanje vode
+		instalacija novih cijevi
+	cijena
+		521.20
+		760
+kvar
+	naziv
+		poplava
+		nestanak vode
+	uzrok
+		hrda
+		zastopljavanje odvoda
+popravakKvar
+	popravak
+		1.
+		2.
+	kvar
+		1.
+		2.
+	potrebnaPomocSegrta
+		da/ne
+		
+ODVJETNIK=================================18
+odvjetnik
+	ime
+		Patrik
+		David
+	prezime
+		Martinčić
+		Rakić
+	iban
+		HR9223600003861195846
+		HR5423600006621735244
+klijent
+	ime
+		Šime
+		Dario
+	prezime
+		Špehar
+		Peričić
+	email
+		simespehar@gmaill.com
+		dario.pericic11@gmail.com
+obrana
+	odvjetnik
+		1.
+		2.
+	klijent
+		1.
+		2.
+obranaSuradnik
+	obrana
+		1.
+		2.
+	odvjetnik
+		1.
+		2.
 
+
+NAKLADNIK================================19
+nakladnik
+	ime
+		Martin
+		Božo
+	prezime
+		Pavić
+		Gaus
+	email
+		martinpavic@gmail.com
+		gaus.bozo@gmail.com
+	mjesto
+		Zagreb
+		Split
+djelo
+	naziv
+		Dobro Jutro
+		Cijelu Noc
+	vrstaGlazbe
+		elektro
+		disko
+		
+nakladnikDjelo
+	nakladnik
+		1.
+		2.
+	djelo
+		1.
+		2.
+
+
+KULTURNO UMJETNICKO DRUSTVO==============20
+clan
+	ime
+		Antun
+		Antonio
+	prezime
+		Ercegovac
+		Elter
+	email
+		aErcegovac@gmail.com
+		antonio-elter12@gmail.com
+nastup
+	zarada
+		5000
+		7984
+	mjesto
+		Osijek
+		Berlin
+nastupClan
+	nastup
+		1.
+		2.
+	clan
+		1.
+		2.
+
+
+DJECJA IGRAONICA==========================21
+djete
+	ime
+		Tihomir
+		Dino
+	prezime
+		Ružić
+		Pavlinić
+	brojRoditelja
+		085 90 782 0789
+		085 97 519 2475
+dadilja
+	ime
+		Veronika
+		Sanja
+	prezime
+		Borović
+		Novak
+	email	
+		veronika221@gmail.com
+		novaks@gmail.com
+skupina
+	naziv
+		Vodeni Traktori
+		Svemirski Automobili
+	dadilja
+		1.
+		2.
+skupinaDijete
+	skupina
+		1.
+		2.
+	dijete
+		1.
+		2.
+	
+
+KLUB CITATELJA===========================22
+clan
+	ime
+		Irena
+		Franjo
+	prezime
+		Cvitanović
+		Krtić
+	email
+		irena-cvita@gmail.com
+		franjo998@gmail.com
+knjiga
+	naziv
+		Ispod Mora
+		Tristo iznad Oblaka
+	vrsta
+		horror
+		drama
+	vlasnik
+		1.
+		2.
+clanKnjiga
+	clan
+		1.
+		2.
+	knjiga
+		1.
+		2.
+	status
+		posudeno/vraceno
