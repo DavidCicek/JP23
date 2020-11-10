@@ -6,7 +6,7 @@ use djecji_vrtic;
 create table skupina(
     sifra int,
     naziv varchar(50),
-    odgajateljica int,
+    odgajatelj int,
     broj_dijece int
 );
 
