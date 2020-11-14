@@ -1,30 +1,41 @@
+#13. Srednja škola
+#Jedna srednja škola ima više razreda. Jedan razred pohađa više učenika. U jednom
+#razredu predaje više profesora. Jedan profesor može predavati u više razreda.
+#G:\xampp\mysql\bin\mysql -uedunova -pedunova < "C:\Users\WEB DOG\Desktop\JP23\bases\srednja_skola.sql"
 drop database if exists srednja_skola;
 create database srednja_skola;
 
 use srednja_skola;
 
 create table razred(
-    sifra int,
-    naziv varchar(50),
-    profesor int
+    sifra int not null primary key auto_increment,
+    naziv varchar(50) not null,
+    ucionica varchar(50)
 );
 
 create table profesor(
-    sifra int,
-    ime varchar(50),
-    prezime varchar(50),
+    sifra int not null primary key auto_increment,
+    ime varchar(50) not null,
+    prezime varchar(50) not null,
     iban varchar(50)
 );
 
 create table ucenik(
-    sifra int,
-    ime varchar(50),
-    prezime varchar(50),
-    oib char(11)
+    sifra int not null primary key auto_increment,
+    ime varchar(50) not null,
+    prezime varchar(50) not null,
+    oib char(11),
+    razred int not null
 );
 
-create table razred_ucenik(
-    sifra int,
-    razred int,
-    ucenik int
+create table razred_profesor(
+    sifra int not null primary key auto_increment,
+    razred int not null,
+    profesor int not null
 );
+
+
+alter table ucenik add foreign key (razred) references razred(sifra);
+
+alter table razred_profesor add foreign key (razred) references razred(sifra);
+alter table razred_profesor add foreign key (profesor) references profesor(sifra);

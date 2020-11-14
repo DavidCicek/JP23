@@ -1,30 +1,40 @@
+#12. Osnovna škola
+#U osnovnoj školi postoje dječje radionice. Na jednoj radionici sudjeluje više djece.
+#Jedno dijete može sudjelovati na više radionica. Radionicu vodi jedna učiteljica.
+#G:\xampp\mysql\bin\mysql -uedunova -pedunova < "C:\Users\WEB DOG\Desktop\JP23\bases\osnovna_skola.sql"
 drop database if exists osnovna_skola;
 create database osnovna_skola;
 
 use osnovna_skola;
 
 create table radionica(
-    sifra int,
-    naziv varchar(50),
-    ucitelj int
+    sifra int not null primary key auto_increment,
+    naziv varchar(50) not null,
+    ucitelj int not null
 );
 
 create table ucitelj(
-    sifra int,
-    ime varchar(50),
-    prezime varchar(50),
+    sifra int not null primary key auto_increment,
+    ime varchar(50) not null,
+    prezime varchar(50) not null,
     iban varchar(50)
 );
 
 create table dijete(
-    sifra int,
-    ime varchar(50),
-    prezime varchar(50),
-    broj_roditelja int
+    sifra int not null primary key auto_increment,
+    ime varchar(50) not null,
+    prezime varchar(50) not null,
+    broj_roditelja int not null
 );
 
 create table radionica_dijete(
-    sifra int,
-    radionica int,
-    dijete int
+    sifra int not null primary key auto_increment,
+    radionica int not null,
+    dijete int not null
 );
+
+
+alter table radionica add foreign key (ucitelj) references ucitelj(sifra);
+
+alter table radionica_dijete add foreign key (radionica) references radionica(sifra);
+alter table radionica_dijete add foreign key (dijete) references dijete (sifra);
