@@ -35,8 +35,12 @@ create table putnik(
 create table voznja(
     sifra int not null primary key auto_increment,
     vozilo int not null,
-    putnik int not null,
     prijedena_putanja int
+);
+
+create table voznja_putnik(
+    voznja int not null,
+    putnik int not null
 );
 
 
@@ -47,4 +51,6 @@ alter table vozac add foreign key (osoba) references osoba(sifra);
 alter table putnik add foreign key (osoba) references osoba(sifra);
 
 alter table voznja add foreign key (vozilo) references vozilo(sifra);
-alter table voznja add foreign key (putnik) references putnik(sifra);
+
+alter table voznja_putnik add foreign key (voznja) references voznja(sifra);
+alter table voznja_putnik add foreign key (putnik) references putnik(sifra);
