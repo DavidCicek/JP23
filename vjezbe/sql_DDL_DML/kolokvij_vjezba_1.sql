@@ -141,4 +141,5 @@ where d.hlace like 'a%' and c.haljina like '%ba%';
 #6 Prikazite kolone haljina i maraka iz tablice sestra ciji se primarni kljuc ne nalaze u tablici sestra_svekar.
 select a.haljina, a.maraka
 from sestra a
-left join sestra_svekar b on b.sestra=a.sifra;
+left join sestra_svekar b on b.sestra=a.sifra
+where b.sifra is null;
