@@ -13,8 +13,7 @@ create table osoba(
 
 create table ucenik(
     sifra int not null primary key auto_increment,
-    osoba int not null,
-    razred int not null
+    osoba int not null
 );
 
 create table ucitelj(
@@ -26,13 +25,27 @@ create table ucitelj(
 create table razred(
     sifra int not null primary key auto_increment,
     naziv varchar(50) not null,
-    ucitelj int not null,
-    broj_ucenika int
+    ucitelj int not null
+);
+
+create table skolska_godina(
+	sifra int not null primary key auto_increment,
+	godina datetime
+);
+
+CREATE TABLE ucenik_razred(
+	sifra int not null primary key auto_increment,
+	ucenik int not null,
+	razred int not null,
+	skolska_godina int not null
 );
 
 
 alter table ucenik add foreign key (osoba) references osoba(sifra);
-alter table ucenik add foreign key (razred) references razred(sifra);
+
+alter table ucenik_razred add foreign key (razred) references razred(sifra);
+alter table ucenik_razred add foreign key (ucenik) references ucenik(sifra);
+alter table ucenik_razred add foreign key (skolska_godina) references skolska_godina(sifra);
 
 alter table ucitelj add foreign key (osoba) references osoba(sifra);
 
